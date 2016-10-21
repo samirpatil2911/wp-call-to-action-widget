@@ -1,0 +1,119 @@
+.required {
+	color: #CC0000;
+	content: " *";
+}
+
+.title {
+	font-size: 18px;
+}
+
+.subtitle {
+	font-size: 16px;
+}
+
+.description {
+	word-wrap: normal;
+}
+
+.button-div {
+	text-align: center;
+	width: 100px;
+}
+.content-div{
+	min-height:88px;
+}
+.button-data {
+	position: relative;
+	margin-top: -30px;
+}
+
+.button-round-dark {
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	color: #FFFFFF !important;
+	background: #3484d9 !important;
+	text-decoration: none;
+	min-height: 34px;
+	min-width: 128px;
+}
+
+.button-round-dark:hover{
+	background:#2DB9ED !important;
+}
+
+.button-round-light {
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	color: #000000 !important;
+	background: #86ebe3 !important;
+	text-decoration: none;
+	min-height: 34px;
+	min-width: 128px;
+}
+
+.button-round-light:hover{
+	background:#C2E4EA !important;
+}
+.button-rect-dark {
+	color: #FFFFFF !important;
+	background: #3484d9 !important;
+	text-decoration: none;
+	min-height: 34px;
+	min-width: 128px;
+}
+
+.button-rect-dark:hover{
+	background:#2DB9ED !important;
+}
+
+.button-rect-light {
+	color: #000000 !important;
+	background: #86ebe3 !important;
+	text-decoration: none;
+	min-height: 34px;
+	min-width: 128px;
+}
+
+.button-rect-light:hover{
+	background:#C2E4EA !important;
+}
+
+.button-style{
+	position:relative;
+	float:right;
+}
+.wpeka_dashboard_wrapper{
+	width: 100%;
+	max-width: 1147px;
+	background: #225277;
+	padding: 20px 30px;
+	border-radius: 4px;
+	color: #ffffff !important;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;   
+}
+.wpeka_dashboard_wrapper h2{
+	font-size: 18px;
+	font-weight: 600;
+	display: inline-block;
+	margin-right: 4%;
+	color: #ffffff;
+}
+.wpeka_dashboard_wrapper input[type="submit"]{
+	background: #e94757;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 600;
+	border: solid 1px #e94757;
+	box-shadow: none;
+	border-radius: 4px;
+	height: 40px;
+	display: inline-block;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.wpeka_dashboard_wrapper  form{
+	display: inline-flex;
+}
