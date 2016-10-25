@@ -1,0 +1,1 @@
+jQuery(document).ajaxSuccess(function(t,e,i){jQuery(".button-primary").click(function(){var t=this.id;if(t.indexOf("wp-call-to-action-widget")>=0){var e=jQuery("#"+t).closest("form");if(""===jQuery(e).find(".button-text").val())return jQuery(e).find(".buttontext_required").show(),!1;}});});
